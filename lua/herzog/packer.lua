@@ -32,5 +32,9 @@ return require('packer').startup(function(use)
 	  "ThePrimeagen/harpoon",
 	  branch = "harpoon2",
 	  requires = { {"nvim-lua/plenary.nvim"} }
-  }  
+  }
+  use 'neovim/nvim-lspconfig' -- Core LSP client
+  use 'williamboman/mason.nvim' -- Language server installer
+  use 'williamboman/mason-lspconfig.nvim' -- Integrates Mason with nvim-lspconfig
+  use 'VonHeikemen/lsp-zero.nvim' -- LSP Zero itself
 end)
