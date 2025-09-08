@@ -37,4 +37,7 @@ return require('packer').startup(function(use)
   use 'williamboman/mason.nvim' -- Language server installer
   use 'williamboman/mason-lspconfig.nvim' -- Integrates Mason with nvim-lspconfig
   use 'VonHeikemen/lsp-zero.nvim' -- LSP Zero itself
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'folke/neodev.nvim'
 end)
