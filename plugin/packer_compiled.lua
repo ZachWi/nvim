@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/zacharywillis/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  motorbike = {
+    loaded = true,
+    path = "/Users/zacharywillis/.local/share/nvim/site/pack/packer/start/motorbike",
+    url = "https://github.com/ZachWi/motorbike"
+  },
   ["neodev.nvim"] = {
     loaded = true,
     path = "/Users/zacharywillis/.local/share/nvim/site/pack/packer/start/neodev.nvim",
