@@ -1,4 +1,5 @@
 vim.opt.nu = true
+vim.opt.relativenumber = true
 vim.o.tabstop = 4         -- Number of spaces a <Tab> character represents
 vim.o.shiftwidth = 4      -- Number of spaces used for (auto)indent
 vim.o.expandtab = true    -- Convert tabs to spaces
