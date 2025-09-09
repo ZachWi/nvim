@@ -105,7 +105,7 @@ _G.packer_plugins = {
     url = "https://github.com/williamboman/mason.nvim"
   },
   motorbike = {
-    config = { "\27LJ\2\nž\1\0\0\5\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\1\2\0004\3\0\0B\1\2\0019\1\3\0'\3\4\0'\4\5\0B\1\3\1K\0\1\0'/Users/zacharywillis/.config/nvim/$/Users/zacharywillis/motorbike/\20set_directories\nsetup\14motorbike\frequire\0" },
+    config = { "\27LJ\2\n\1\0\0\5\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\1\2\0004\3\0\0B\1\2\0019\1\3\0'\3\4\0'\4\5\0B\1\3\1K\0\1\0'/Users/zacharywillis/.config/nvim/#/Users/zacharywillis/motorbike\20set_directories\nsetup\14motorbike\frequire\0" },
     loaded = true,
     path = "/Users/zacharywillis/.local/share/nvim/site/pack/packer/start/motorbike",
     url = "https://github.com/ZachWi/motorbike"
@@ -154,14 +154,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: motorbike
+time([[Config for motorbike]], true)
+try_loadstring("\27LJ\2\n\1\0\0\5\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\1\2\0004\3\0\0B\1\2\0019\1\3\0'\3\4\0'\4\5\0B\1\3\1K\0\1\0'/Users/zacharywillis/.config/nvim/#/Users/zacharywillis/motorbike\20set_directories\nsetup\14motorbike\frequire\0", "config", "motorbike")
+time([[Config for motorbike]], false)
 -- Config for: tokyonight
 time([[Config for tokyonight]], true)
 try_loadstring("\27LJ\2\n>\0\0\3\0\4\0\0066\0\0\0009\0\1\0009\0\2\0'\2\3\0B\0\2\1K\0\1\0\15catppuccin\16colorscheme\bcmd\bvim\0", "config", "tokyonight")
 time([[Config for tokyonight]], false)
--- Config for: motorbike
-time([[Config for motorbike]], true)
-try_loadstring("\27LJ\2\nž\1\0\0\5\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\1\2\0004\3\0\0B\1\2\0019\1\3\0'\3\4\0'\4\5\0B\1\3\1K\0\1\0'/Users/zacharywillis/.config/nvim/$/Users/zacharywillis/motorbike/\20set_directories\nsetup\14motorbike\frequire\0", "config", "motorbike")
-time([[Config for motorbike]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

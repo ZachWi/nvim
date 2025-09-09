@@ -13,7 +13,7 @@ return require('packer').startup(function(use)
             local motorbike = require("motorbike")
             motorbike.setup({})  -- optional
             motorbike.set_directories(
-                "/Users/zacharywillis/motorbike/",
+                "/Users/zacharywillis/motorbike",
                 "/Users/zacharywillis/.config/nvim/"
             )
         end
