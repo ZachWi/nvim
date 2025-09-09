@@ -6,10 +6,14 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
--- In your packer startup block:
-use {
-  "ZachWi/motorbike",
-}
+    -- In your packer startup block:
+    use {
+        "ZachWi/motorbike",
+        config = function()
+            local motorbike = require("motorbike")
+            motorbike.setup()  -- optional
+        end
+    }
 
    use {
         'nvim-telescope/telescope.nvim', tag = '0.1.8',
