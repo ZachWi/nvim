@@ -8,10 +8,9 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     -- In your packer startup block:
     use {
-        "ZachWi/motorbike",
+        "~/motorbike",
         config = function()
             local motorbike = require("motorbike")
-            motorbike.setup({})  -- optional
             motorbike.set_directories(
                 "/Users/zacharywillis/motorbike",
                 "/Users/zacharywillis/.config/nvim/"
